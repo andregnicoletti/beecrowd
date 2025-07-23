@@ -14,7 +14,9 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-		String employeeName = sc.next();
+		
+//		String employeeName = sc.next(); // não usado
+		sc.next();
 		double employeeSalary = sc.nextDouble();
 		double employeeSales = sc.nextDouble();
 		double bonus = 0.0;
